@@ -6,6 +6,8 @@
 
 </br>
 
+我的博客：[详解](https://ruzhan123.github.io/2016/07/03/2016-07-03-14-DirectionControlView%E4%B8%80%E4%B8%AA%E6%96%B9%E5%90%91%E6%8E%A7%E5%88%B6%E8%87%AA%E5%AE%9A%E4%B9%89View/)
+
 
 这是一个可识别上滑，下滑，左滑，右滑，方向识别与控制的自定义View。核心类就一个：DirectionControlView.java
 
@@ -73,6 +75,12 @@
 
 
 ```
+
+现在可以正常使用DirectionControlView了。
+
+
+---
+
 
 注意，上下左右滑动,在这里只做了最简单的判断和处理，方向识别核心代码如下：
 
