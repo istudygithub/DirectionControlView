@@ -10,7 +10,8 @@ import android.view.View;
 /**
  * Created by hrz on 2016/7/3.
  */
-public class DirectionControlView extends View implements GestureDetector.OnGestureListener, GestureDetector.OnDoubleTapListener {
+public class DirectionControlView extends View implements
+        GestureDetector.OnGestureListener, GestureDetector.OnDoubleTapListener {
 
     private static final String TAG = DirectionControlView.class.getSimpleName();
     private static final int MIN_OFFSET_VALUE = 20;

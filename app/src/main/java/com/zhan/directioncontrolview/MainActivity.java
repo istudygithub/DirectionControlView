@@ -6,7 +6,8 @@ import android.widget.TextView;
 
 import com.zhan.directioncontrolview.widget.DirectionControlView;
 
-public class MainActivity extends AppCompatActivity implements DirectionControlView.DirectionControlListener {
+public class MainActivity extends AppCompatActivity
+        implements DirectionControlView.DirectionControlListener {
 
     private DirectionControlView mDirectionControlView;
     private TextView mTextView;
